@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Flores Amarillas</title>
+  <style>
+    body {
+      background-color: #fffacd; /* amarillo muy clarito */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      color: #ffcc00; /* amarillo más fuerte */
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .flores img {
+      width: 150px;
+      margin: 10px;
+      transition: transform 0.5s;
+    }
+    .flores img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Tus flores amarillas amor, te amo 🌼💛</h1>
+  <div class="flores">
+    <img src="https://cdn.pixabay.com/photo/2016/03/27/21/38/flowers-1283913_1280.png" alt="Flor amarilla 1">
+    <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" alt="Flor amarilla 2">
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="Flor amarilla 3">
+  </div>
+</body>
+</html>
